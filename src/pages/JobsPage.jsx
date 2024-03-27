@@ -1,9 +1,9 @@
 
+import JobListings from "../components/JobListings"
 const JobsPage = () => {
   return (
-    <div>
-        Jobs Page
-    </div>
+
+    <JobListings isHome={false}/>
   )
 }
 
